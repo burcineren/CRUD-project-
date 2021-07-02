@@ -1,0 +1,9 @@
+{
+    "blogPost": [
+      {
+        "title": "NET Jwt Authentication with MongoDB",
+        "description": "Hello everyone! In this tutorial I will show you a way to implement JWT Authentication but in this case using MongoDB driver.\nFirst we will create new web api using dotnet cli. Open your terminal and run command: dotnet new webapp - -name=webapi.\nThis will create start boilerplate for our application.\nOpen the crafted application in your favorite code editor, I am using vs-code.\nThis is what you’ll get.\nWe will start by adding MongoDB Driver package to our application, so we can work with our collections.\nIn you terminal run: dotnet add package MongoDB.Driver\nAfter installing, get back to project and open your .csproj file, and you should see:\n<PackageReference Include=”MongoDB.Driver” Version=”2.12.0\" />\nNow we are ready to connect to our Mongo database.",
+        "id": 1
+      }
+    ]
+  }
